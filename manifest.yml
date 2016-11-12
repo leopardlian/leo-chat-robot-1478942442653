@@ -1,0 +1,12 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: leo chat-robot
+  host: leo-chat-robot
+  disk_quota: 1024M
+  services:
+  - leo chat robot
+  - Text to Speech-7n
+  - Speech to Text-s8
